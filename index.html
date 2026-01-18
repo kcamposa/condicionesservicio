@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Condiciones del Servicio</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --bg: #ffffff;
+      --card: #f9fafb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%);
+      color: #ffffff;
+      padding: 56px 20px 64px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: clamp(2rem, 3vw, 2.75rem);
+      margin-bottom: 12px;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 960px;
+      margin: -40px auto 60px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .card + .card {
+      margin-top: 24px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    ul {
+      padding-left: 18px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .highlight {
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 20px 48px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Condiciones del Servicio</h1>
+    <p>Estas condiciones explican las reglas de uso, responsabilidades y derechos asociados a nuestro servicio.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="meta">
+        <span><strong>Vigente desde:</strong> 1 de noviembre de 2024</span>
+        <span><strong>Contacto:</strong> soporte@tuempresa.com</span>
+      </div>
+      <p class="highlight">
+        Al utilizar nuestro servicio, aceptas estas condiciones. Si no estás de acuerdo, por favor no continúes usando la plataforma.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. Uso permitido del servicio</h2>
+      <p>El servicio está diseñado para uso personal o empresarial conforme a la legislación vigente. Te comprometes a:</p>
+      <ul>
+        <li>No realizar actividades fraudulentas, ilegales o que vulneren derechos de terceros.</li>
+        <li>No intentar acceder sin autorización a sistemas, cuentas o datos ajenos.</li>
+        <li>Proporcionar información veraz y actualizada al registrarte.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>2. Cuenta y seguridad</h2>
+      <p>Eres responsable de mantener la confidencialidad de tus credenciales. Notifícanos inmediatamente si detectas un uso no autorizado.</p>
+      <p>Podremos suspender o cancelar cuentas que incumplan estas condiciones o representen un riesgo para el servicio.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. Pagos y facturación</h2>
+      <p>Al contratar un plan de pago, aceptas las tarifas vigentes y los ciclos de facturación establecidos.</p>
+      <ul>
+        <li>Los pagos se procesan a través de proveedores externos seguros.</li>
+        <li>No ofrecemos reembolsos por períodos ya consumidos, salvo indicación legal.</li>
+        <li>Podemos ajustar precios notificándolo con antelación razonable.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Propiedad intelectual</h2>
+      <p>Todo el contenido, diseño y tecnología del servicio pertenece a la empresa o a sus licenciantes.</p>
+      <p>No se permite copiar, modificar o distribuir materiales sin autorización previa y por escrito.</p>
+    </section>
+
+    <section class="card">
+      <h2>5. Limitación de responsabilidad</h2>
+      <p>No garantizamos que el servicio esté libre de errores o interrupciones. En la medida permitida por la ley:</p>
+      <ul>
+        <li>No seremos responsables por pérdidas indirectas o consecuenciales.</li>
+        <li>La responsabilidad total se limita al importe pagado en los últimos 12 meses.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. Terminación del servicio</h2>
+      <p>Puedes cancelar tu cuenta en cualquier momento. Nosotros también podemos terminarla si incumples estas condiciones.</p>
+      <p>Tras la terminación, podrás solicitar la exportación de tus datos dentro de los plazos establecidos en nuestra política de privacidad.</p>
+    </section>
+
+    <section class="card">
+      <h2>7. Cambios en las condiciones</h2>
+      <p>Podemos actualizar estas condiciones para reflejar cambios legales o del servicio. Avisaremos con antelación razonable.</p>
+    </section>
+
+    <section class="card">
+      <h2>8. Contacto</h2>
+      <p>Si tienes preguntas sobre estas condiciones, contáctanos en <a href="mailto:soporte@tuempresa.com">soporte@tuempresa.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2024 Tu Empresa. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
